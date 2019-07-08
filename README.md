@@ -6,10 +6,11 @@ Level 1 : Create the Container to run the application
 * use uwsgi to run the application in http mode
 * modify the app to get the credentials for the DB externally
 
-Level 2: Create a docker-compose file to run the container
+Level 2: Run the container using docker-compose
 ===========================================
 * create docker-compose.yml
 * create inject the necessary credentials to connect to the db
+* map on port 80
 
 Level 3 : Run the container using minikube on the EC2 instance
 ===========================================
